@@ -1,5 +1,5 @@
 {
-  "name": "@ai-crew-suite/plugin-agent-tech-radar-manager-backend",
+  "name": "@ai-crew-suite/plugin-platform-backend-module-agent-tech-radar-manager",
   "description": "AI Core backend module for deterministic, cited technology-radar adoption analysis.",
   "version": "0.0.1",
   "main": "src/index.ts",
@@ -17,20 +17,17 @@
     "provenance": true
   },
   "backstage": {
-    "role": "backend-plugin",
-    "pluginId": "tech-radar-manager",
-    "pluginPackages": [
-      "@ai-crew-suite/plugin-agent-tech-radar-manager-backend",
-      "@ai-crew-suite/plugin-agent-tech-radar-manager-react"
-    ]
+    "role": "backend-module",
+    "pluginId": "platform",
+    "pluginPackage": "@ai-crew-suite/plugin-platform-backend"
   },
   "bugs": {
-    "url": "https://github.com/ai-crew-suite/ai-crew-suite/issues",
+    "url": "https://github.com/ai-crew-suite/agents/issues",
     "email": "support@ai-crew-suite.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ai-crew-suite/ai-crew-suite",
+    "url": "https://github.com/ai-crew-suite/agents",
     "directory": "plugins/agents/tech-radar-manager/backend"
   },
   "files": [
@@ -55,6 +52,6 @@
   "devDependencies": {
     "@ai-crew-suite/cli": "workspace:*",
     "@backstage/backend-test-utils": "backstage:^",
-    "vitest": "catalog:vitest"
+    "vitest": "catalog:dev"
   }
 }

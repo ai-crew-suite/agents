@@ -1,5 +1,5 @@
 {
-  "name": "@ai-crew-suite/plugin-agent-techdocs-janitor-backend",
+  "name": "@ai-crew-suite/plugin-platform-backend-module-agent-techdocs-janitor",
   "description": "AI Core backend module for deterministic TechDocs ownership and link audits.",
   "version": "0.0.1",
   "main": "src/index.ts",
@@ -17,20 +17,17 @@
     "provenance": true
   },
   "backstage": {
-    "role": "backend-plugin",
-    "pluginId": "techdocs-janitor",
-    "pluginPackages": [
-      "@ai-crew-suite/plugin-agent-techdocs-janitor-backend",
-      "@ai-crew-suite/plugin-agent-techdocs-janitor-react"
-    ]
+    "role": "backend-module",
+    "pluginId": "platform",
+    "pluginPackage": "@ai-crew-suite/plugin-platform-backend"
   },
   "bugs": {
-    "url": "https://github.com/ai-crew-suite/ai-crew-suite/issues",
+    "url": "https://github.com/ai-crew-suite/agents/issues",
     "email": "support@ai-crew-suite.dev"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ai-crew-suite/ai-crew-suite",
+    "url": "https://github.com/ai-crew-suite/agents",
     "directory": "plugins/agents/techdocs-janitor/backend"
   },
   "files": [
@@ -56,6 +53,6 @@
   "devDependencies": {
     "@ai-crew-suite/cli": "workspace:*",
     "@backstage/backend-test-utils": "backstage:^",
-    "vitest": "catalog:vitest"
+    "vitest": "catalog:dev"
   }
 }

@@ -1,8 +1,11 @@
-# AI Crew Suite Community Agents
+# AI Crew Suite for Spotify Backstage IDP - Agents
 
 ![AI Crew Suite core plugins splash image](./ai-crew-suite-social-share-agents.jpeg)
 
 AI Crew Suite is a Backstage plugin workspace for building retrieval-augmented, tool-using AI agents inside a developer portal. This repo includes a useful collection of user-facing agents, each including a backend plugin to interact with the core backend plugin and a frontend plugin for UI.
+
+> [!WARNING]
+> This repo is pre-beta and under going heavy development as of October, 2026. We are refactoring from LangGraph to a fluent API for workflows in agentic plugins based on Temporal + Mem0 Vercel AI SDK.
 
 ## 🏗️ Development Workflow
 
@@ -57,15 +60,15 @@ yarn turbo run publish
 
 ### Issues and Discussions
 
-Please open a [Discussion](https://github.com/ai-crew-suite/community-agents/discussions) to get help, suggest a new feature, or to report a bug. We only want maintainers to open Issues.
+Please open a [Discussion](https://github.com/ai-crew-suite/agents/discussions) to get help, suggest a new feature, or to report a bug. We only want maintainers to open Issues.
 
-- [GitHub Discussions for AI Crew Suite Community Agents](https://github.com/ai-crew-suite/community-agents/discussions)
+- [GitHub Discussions for AI Crew Suite Community Agents](https://github.com/ai-crew-suite/agents/discussions)
 
 ### Contributing
 
 To contribute to AI Crew Suite, please read the contributing guidelines.
 
-- [Guidelines for Contributing](https://github.com/ai-crew-suite/community-agents/blob/main/.github/CONTRIBUTING.md)
+- [Guidelines for Contributing](https://github.com/ai-crew-suite/agents/blob/main/.github/CONTRIBUTING.md)
 
 ### Contact and Social Media
 
@@ -80,7 +83,7 @@ Follow us on:
 
 ## 🛡️ Security / Disclosure
 
-If you find any bug with AI Crew Suite that may be a security problem, please report it through the [GitHub Security Advisories process](https://github.com/ai-crew-suite/community-agents/security/advisories). This way we can evaluate the bug and hopefully fix it before it gets abused. Please give us enough time to investigate the bug before you report it anywhere else.
+If you find any bug with AI Crew Suite that may be a security problem, please report it through the [GitHub Security Advisories process](https://github.com/ai-crew-suite/agents/security/advisories). This way we can evaluate the bug and hopefully fix it before it gets abused. Please give us enough time to investigate the bug before you report it anywhere else.
 
 If you would like to discuss a potential finding before raising the Advisory, then e-mail us at [security@ai-crew-suite.dev](mailto:security@ai-crew-suite.dev).
 

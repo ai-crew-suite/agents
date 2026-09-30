@@ -1,20 +1,12 @@
 {
   "name": "root",
-  "version": "0.0.1",
+  "description": "Agentic plugin frontend / backend pairs for Ai Crew Suite",
   "private": true,
   "engines": {
-    "node": "22 || 24"
+    "node": "22 || 24",
+    "npm": "Please use Yarn instead (Corepack enable)"
   },
   "packageManager": "yarn@4.18.0",
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": [
-      "eslint --config packages/config-eslint/eslint.monorepo.config.ts --fix"
-    ],
-    "*.{json,md,css,scss}": [
-      "prettier --write"
-    ]
-  },
-  "prettier": "@backstage/cli/config/prettier",
   "workspaces": [
     "packages/*",
     "plugins/**/*"
@@ -50,7 +42,7 @@
     "plugin:create": "backstage-cli new --category plugin --scope @ai-crew-suite",
     "plugin:new": "backstage-cli new --scope @ai-crew-suite",
     "postinstall": "yarn python:setup",
-    "preinstall": "npx only-allow yarn && yarn sync",
+    "preinstall": "yarn sync",
     "python:setup": "./scripts/setup-python.sh",
     "python:run-runner": "bash -c 'source .venv/bin/activate'",
     "release": "changeset version && yarn prettier --write \"{packages,plugins}/*/{package.json,CHANGELOG.md}\" && yarn install",
@@ -81,27 +73,30 @@
     "@backstage/cli-defaults": "backstage:^",
     "@backstage/cli-module-new": "backstage:^",
     "@backstage/config": "backstage:^",
-    "@changesets/cli": "^3.0.2",
-    "@playwright/test": "^1.63.0",
-    "@types/node": "^22.20.1",
-    "concurrently": "^10.0.5",
-    "http-server": "^14.1.1",
-    "husky": "^9.1.7",
-    "i18next": "26.4.2",
-    "lint-staged": "^17.5.0",
-    "node-gyp": "^13.0.2",
-    "only-allow": "^1.2.2",
-    "prettier": "^3.9.6",
-    "prop-types": "^15.8.1",
-    "storybook": "^10.6.0",
-    "turbo": "^2.10.12",
-    "typescript": "6.0.3",
-    "whatwg-fetch": "^3.6.20"
+    "@changesets/cli": "catalog:dev",
+    "@playwright/test": "catalog:dev",
+    "@types/node": "catalog:dev",
+    "concurrently": "catalog:dev",
+    "http-server": "catalog:dev",
+    "husky": "catalog:dev",
+    "lint-staged": "catalog:dev",
+    "prettier": "catalog:dev",
+    "storybook": "catalog:dev",
+    "turbo": "catalog:dev",
+    "typescript": "catalog:dev"
   },
   "resolutions": {
-    "@types/node": "^26.1.1",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "typescript": "6.0.3"
+    "@types/node": "catalog:dev",
+    "@types/react": "catalog:dev",
+    "@types/react-dom": "catalog:dev",
+    "typescript": "catalog:dev"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "eslint --config packages/config-eslint/eslint.monorepo.config.ts --fix"
+    ],
+    "*.{json,md,css,scss}": [
+      "prettier --write"
+    ]
   }
 }

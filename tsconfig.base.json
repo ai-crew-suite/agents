@@ -25,5 +25,9 @@
   "include": [
     "${configDir}/src/**/*",
     "${configDir}/@types/**/*"
-  ]
+  ],
+  "exclude": [
+    "${configDir}/src/**/*.test.*",
+    "${configDir}/src/**/*.spec.*"
+  ],
 }
