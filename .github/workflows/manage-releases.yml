@@ -1,0 +1,25 @@
+name: Automated Version Sync
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  version-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write # Required to allow Changesets to open PRs
+
+    steps:
+      - name: 🚀 Execute Centralized PR Controller Pass
+        uses: ai-crew-suite/pipelines/actions/changeset-pr-controller@v1
+        with:
+          node-version: "22"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-title: "Version Packages - Release Automated Updates"

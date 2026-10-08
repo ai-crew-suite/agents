@@ -1,36 +1,35 @@
-name: Changeset PRs
+name: Changeset Notes Management
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    branches: [main]
 
 jobs:
-  create-release-pr:
-    name: Create Changeset PR
+  build-and-verify:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [22]
+    permissions:
+      contents: write
 
     steps:
-      - name: 📂 Checkout Repository
+      - name: 📂 Checkout Application Source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🟢 Use Node.js ${{ matrix.node-version }}
+      - name: 🛠️ Initialize Node Environment
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
+          cache: "yarn"
 
-      - name: 📦 Install Workspace Dependencies
-        uses: backstage/actions/yarn-install@0d281eb2e96927466db49d4cd01d52b14809a66b # v0.7.10
-        with:
-          cache-prefix: ${{ runner.os }}-node-${{ matrix.node-version }}
+      - name: 📦 Install Architecture Dependencies
+        run: yarn install --immutable
 
-      - name: 🚀 Create Release Pull Request
-        uses: changesets/action@ae32849d5ba541f9ae29e40e22a623bc13562f51 # v2.1.2
+      - name: 🦋 Sync Repository Changesets
+        uses: ai-crew-suite/pipelines/actions/changeset-sync@v1
         with:
-          version-script: yarn release
-          pr-title: "Version Packages - plugins"
-          # v2 reads the token only from this input; the GITHUB_TOKEN env var is ignored
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🧬 Run Test Suite Validation Matrix
+        run: yarn test
