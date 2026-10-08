@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "@ai-crew-suite/typescript-shared-config/node",
   "references": [
     {
       "path": "./packages/app"
@@ -114,117 +114,6 @@
     },
     {
       "path": "./plugins/techdocs-postmortem/react"
-    },
-    {
-      "path": "./plugins/databases/runtime"
-    },
-    {
-      "path": "./plugins/databases/vector/pgvector"
-    },
-    {
-      "path": "./plugins/databases/vector/qdrant"
-    },
-    {
-      "path": "./plugins/inference/aws"
-    },
-    {
-      "path": "./plugins/inference/openai"
-    },
-    {
-      "path": "./plugins/inference/openrouter"
-    },
-    {
-      "path": "./plugins/kernel/backend"
-    },
-    {
-      "path": "./plugins/kernel/node"
-    },
-    {
-      "path": "./plugins/kernel/react"
-    },
-    {
-      "path": "./plugins/kernel/retrieval-augmenter"
-    },
-    {
-      "path": "./plugins/tools/cloud-providers/aws"
-    },
-    {
-      "path": "./plugins/tools/cloud-providers/azure"
-    },
-    {
-      "path": "./plugins/tools/cloud-providers/engine"
-    },
-    {
-      "path": "./plugins/tools/cloud-providers/gcp"
-    },
-    {
-      "path": "./plugins/tools/communication/engine"
-    },
-    {
-      "path": "./plugins/tools/communication/slack"
-    },
-    {
-      "path": "./plugins/tools/compliance/engine"
-    },
-    {
-      "path": "./plugins/tools/compliance/opa"
-    },
-    {
-      "path": "./plugins/tools/incident-management/engine"
-    },
-    {
-      "path": "./plugins/tools/incident-management/pagerduty"
-    },
-    {
-      "path": "./plugins/tools/kubernetes"
-    },
-    {
-      "path": "./plugins/tools/observability/datadog"
-    },
-    {
-      "path": "./plugins/tools/observability/engine"
-    },
-    {
-      "path": "./plugins/tools/project-management/engine"
-    },
-    {
-      "path": "./plugins/tools/project-management/jira"
-    },
-    {
-      "path": "./plugins/tools/quality-scorecards/engine"
-    },
-    {
-      "path": "./plugins/tools/quality-scorecards/scorecards"
-    },
-    {
-      "path": "./plugins/tools/quality-scorecards/soundcheck"
-    },
-    {
-      "path": "./plugins/tools/quality-scorecards/techradar"
-    },
-    {
-      "path": "./plugins/tools/vcs/aws-codecommit"
-    },
-    {
-      "path": "./plugins/tools/vcs/azure"
-    },
-    {
-      "path": "./plugins/tools/vcs/bitbucket"
-    },
-    {
-      "path": "./plugins/tools/vcs/engine"
-    },
-    {
-      "path": "./plugins/tools/vcs/gerrit"
-    },
-    {
-      "path": "./plugins/tools/vcs/git"
-    },
-    {
-      "path": "./plugins/tools/vcs/github"
-    },
-    {
-      "path": "./plugins/tools/vcs/gitlab"
     }
   ]
 }

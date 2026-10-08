@@ -18,9 +18,5 @@
  * Linting is handled by the ai-crew-suite CLI. This file is necessary
  * for IDE ESLint extensions to automatically pick up linting config.
  */
-// @ts-ignore - Bypass type declaration generation checks for compiled root config file
-import { createFlatConfigForWorkspace } from '@ai-crew-suite/cli/config/eslint';
-
+import { createFlatConfigForWorkspace } from '@ai-crew-suite/crew-cli/config/eslint';
 export default createFlatConfigForWorkspace();
-
-// @TODO: Add a rule that drivers can't import from the core backend plugin, only from core node

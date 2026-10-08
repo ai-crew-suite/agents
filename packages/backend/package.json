@@ -87,7 +87,7 @@
     "pg": "catalog:prod"
   },
   "devDependencies": {
-    "@backstage/cli": "backstage:^",
+    "@ai-crew-suite/cli": "catalog:dev",
     "vitest": "catalog:dev"
   }
 }
