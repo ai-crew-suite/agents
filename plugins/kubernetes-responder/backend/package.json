@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-crew-suite/agents",
-    "directory": "plugins/agents/kubernetes-responder/backend"
+    "directory": "plugins/kubernetes-responder/backend"
   },
   "files": [
     "dist/",
@@ -50,7 +50,8 @@
     "@backstage/config": "backstage:^"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "workspace:*",
+    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "@backstage/backend-test-utils": "backstage:^",
     "vitest": "catalog:dev"
   }

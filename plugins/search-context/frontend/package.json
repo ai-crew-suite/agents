@@ -27,7 +27,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-crew-suite/agents",
-    "directory": "plugins/agents/search-context/frontend"
+    "directory": "plugins/search-context/frontend"
   },
   "files": [
     "dist"
@@ -43,8 +43,8 @@
     "typecheck": "crew typecheck"
   },
   "dependencies": {
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^",
-    "@ai-crew-suite/plugin-kernel": "workspace:^",
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod",
+    "@ai-crew-suite/plugin-platform-backend": "platform:prod",
     "@backstage/catalog-model": "backstage:^",
     "@backstage/core-components": "backstage:^",
     "@backstage/core-plugin-api": "backstage:^",
@@ -61,7 +61,8 @@
     "react-router-dom": "catalog:prod"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "workspace:*",
+    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "@backstage/dev-utils": "backstage:^",
     "@backstage/test-utils": "backstage:^",
     "@testing-library/jest-dom": "catalog:dev",

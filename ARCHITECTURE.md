@@ -141,7 +141,7 @@ find . -type f -exec sed -i 's|https://github.com/ai-crew-suite|https://github.c
     "typecheck": "crew typecheck"
   },
   "dependencies": {
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^",
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod",
     "@backstage/backend-plugin-api": "backstage:^",
     "@backstage/config": "backstage:^",
   },

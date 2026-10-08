@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-crew-suite/agents",
-    "directory": "plugins/agents/scaffolder-intent/backend"
+    "directory": "plugins/scaffolder-intent/backend"
   },
   "files": [
     "dist/",
@@ -49,10 +49,11 @@
     "@backstage/backend-plugin-api": "backstage:^",
     "@backstage/catalog-client": "backstage:^",
     "@backstage/config": "backstage:^",
-    "@backstage/plugin-scaffolder-node": "catalog:backstage-plugin-scaffolder-node"
+    "@backstage/plugin-scaffolder-node": "catalog:prod"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "workspace:*",
+    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "@backstage/backend-test-utils": "backstage:^",
     "vitest": "catalog:dev"
   }

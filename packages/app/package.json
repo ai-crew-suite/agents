@@ -93,6 +93,7 @@
   },
   "devDependencies": {
     "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "@backstage/frontend-test-utils": "backstage:^",
     "@playwright/test": "catalog:playwright-test",
     "@testing-library/dom": "^10.4.1",

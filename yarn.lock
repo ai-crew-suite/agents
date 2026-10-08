@@ -95,7 +95,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-alert-tuner@workspace:plugins/agents/alert-tuner/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/core-components": "backstage:^"
     "@backstage/core-plugin-api": "backstage:^"
@@ -125,7 +125,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-catalog-insights-backend@workspace:plugins/agents/catalog-insights/backend"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/catalog-client": "backstage:^"
@@ -139,7 +139,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-catalog-insights@workspace:plugins/agents/catalog-insights/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -184,7 +184,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-kubernetes-responder@workspace:plugins/agents/kubernetes-responder/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -229,7 +229,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-oncall-handover@workspace:plugins/agents/oncall-handover/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -274,7 +274,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-release-notes-generator@workspace:plugins/agents/release-notes-generator/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -319,7 +319,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-rfc-adr-reviewer@workspace:plugins/agents/rfc-adr-reviewer/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -365,7 +365,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-drift-detector@workspace:plugins/agents/scaffolder-drift-detector/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -410,7 +410,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-guardrail@workspace:plugins/agents/scaffolder-guardrail/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -456,7 +456,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-infra@workspace:plugins/agents/scaffolder-infra/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -503,7 +503,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-intent@workspace:plugins/agents/scaffolder-intent/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -548,7 +548,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-prd@workspace:plugins/agents/scaffolder-prd/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -594,7 +594,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-scaffolder-shadow-detective@workspace:plugins/agents/scaffolder-shadow-detective/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -639,7 +639,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-search-archeology@workspace:plugins/agents/search-archeology/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -685,7 +685,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-search-context@workspace:plugins/agents/search-context/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -730,7 +730,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-tech-debt-scout@workspace:plugins/agents/tech-debt-scout/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -775,7 +775,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-tech-radar-manager@workspace:plugins/agents/tech-radar-manager/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -821,7 +821,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-techdocs-janitor@workspace:plugins/agents/techdocs-janitor/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -866,7 +866,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-agent-techdocs-postmortem@workspace:plugins/agents/techdocs-postmortem/react"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-kernel-react": "workspace:^"
     "@backstage/catalog-model": "backstage:^"
     "@backstage/core-components": "backstage:^"
@@ -899,7 +899,7 @@ __metadata:
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
     "@ai-crew-suite/plugin-kernel-backend": "workspace:^"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-retrieval-augmenter-backend": "workspace:^"
     "@ai-crew-suite/plugin-vector-store-pgvector": "workspace:^"
     "@aws-sdk/client-bedrock-runtime": "npm:^3.1130.0"
@@ -920,7 +920,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-ai-providers-backend-module-openai@workspace:plugins/inference/openai"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-retrieval-augmenter-backend": "workspace:^"
     "@ai-crew-suite/plugin-vector-store-pgvector": "workspace:^"
     "@backstage/backend-common": "catalog:backstage-backend-common"
@@ -939,7 +939,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-ai-providers-backend-module-openrouter@workspace:plugins/inference/openrouter"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/config": "backstage:^"
     "@langchain/core": "catalog:langchain-core"
@@ -954,7 +954,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-databases-runtime-backend@workspace:plugins/databases/runtime"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -969,7 +969,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-kernel-backend-module-quality-scorecards@workspace:plugins/tools/quality-scorecards/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -982,7 +982,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-kernel-backend@workspace:plugins/kernel/backend"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-common": "catalog:backstage-backend-common"
     "@backstage/backend-defaults": "backstage:^"
     "@backstage/backend-plugin-api": "backstage:^"
@@ -1038,7 +1038,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-retrieval-augmenter-backend@workspace:plugins/kernel/retrieval-augmenter"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-common": "catalog:backstage-backend-common"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/catalog-client": "backstage:^"
@@ -1073,7 +1073,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-cloud-providers-backend-module-azure@workspace:plugins/tools/cloud-providers/azure"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@azure/arm-resources": "npm:^8.0.0"
     "@azure/identity": "npm:^4.13.2"
     "@backstage/backend-plugin-api": "backstage:^"
@@ -1088,7 +1088,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-cloud-providers-backend-module-gcp@workspace:plugins/tools/cloud-providers/gcp"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1102,7 +1102,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-cloud-providers-backend@workspace:plugins/tools/cloud-providers/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/cli": "backstage:^"
@@ -1129,7 +1129,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-communication-backend@workspace:plugins/tools/communication/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1142,7 +1142,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-compliance-backend-module-opa@workspace:plugins/tools/compliance/opa"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1155,7 +1155,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-compliance-backend@workspace:plugins/tools/compliance/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1168,7 +1168,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-incident-management-backend-module-pagerduty@workspace:plugins/tools/incident-management/pagerduty"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1181,7 +1181,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-incident-management-backend@workspace:plugins/tools/incident-management/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1194,7 +1194,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-kubernetes-backend@workspace:plugins/tools/kubernetes"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1207,7 +1207,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-observability-backend-module-datadog@workspace:plugins/tools/observability/datadog"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1220,7 +1220,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-observability-backend@workspace:plugins/tools/observability/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1233,7 +1233,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-project-management-backend-module-jira@workspace:plugins/tools/project-management/jira"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1246,7 +1246,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-project-management-backend@workspace:plugins/tools/project-management/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/config": "backstage:^"
@@ -1259,7 +1259,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-quality-scorecards-backend-module-scorecards@workspace:plugins/tools/quality-scorecards/scorecards"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/catalog-model": "backstage:^"
@@ -1272,7 +1272,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-quality-scorecards-backend-module-soundcheck@workspace:plugins/tools/quality-scorecards/soundcheck"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@spotify/backstage-plugin-soundcheck-backend": "npm:0.31.1"
@@ -1286,7 +1286,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tool-quality-scorecards-backend-module-techradar@workspace:plugins/tools/quality-scorecards/techradar"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage-community/plugin-tech-radar-backend": "npm:^1.21.0"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
@@ -1300,7 +1300,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-aws-codecommit@workspace:plugins/tools/vcs/aws-codecommit"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@aws-sdk/client-codecommit": "npm:^3.1129.0"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
@@ -1314,7 +1314,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-azure@workspace:plugins/tools/vcs/azure"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1328,7 +1328,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-bitbucket@workspace:plugins/tools/vcs/bitbucket"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1341,7 +1341,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-gerrit@workspace:plugins/tools/vcs/gerrit"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1354,7 +1354,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-git@workspace:plugins/tools/vcs/git"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1369,7 +1369,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-github@workspace:plugins/tools/vcs/github"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1384,7 +1384,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend-module-gitlab@workspace:plugins/tools/vcs/gitlab"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
     "@backstage/integration": "backstage:^"
@@ -1398,7 +1398,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-tools-vcs-backend@workspace:plugins/tools/vcs/engine"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-defaults": "backstage:^"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/backend-test-utils": "backstage:^"
@@ -1419,7 +1419,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-vector-store-pgvector@workspace:plugins/databases/vector/pgvector"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/config": "backstage:^"
     "@langchain/core": "catalog:langchain-core"
@@ -1434,7 +1434,7 @@ __metadata:
   resolution: "@ai-crew-suite/plugin-vector-store-qdrant@workspace:plugins/databases/vector/qdrant"
   dependencies:
     "@ai-crew-suite/cli": "workspace:*"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@backstage/backend-plugin-api": "backstage:^"
     "@backstage/config": "backstage:^"
     "@langchain/core": "catalog:langchain-core"
@@ -18067,7 +18067,7 @@ __metadata:
     "@ai-crew-suite/plugin-databases-runtime-backend": "workspace:^"
     "@ai-crew-suite/plugin-kernel-backend": "workspace:^"
     "@ai-crew-suite/plugin-kernel-backend-module-quality-scorecards": "workspace:^"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-tool-cloud-providers-backend": "workspace:^"
     "@ai-crew-suite/plugin-tool-communication-backend": "workspace:^"
     "@ai-crew-suite/plugin-tool-communication-backend-module-slack": "workspace:^"
@@ -18145,7 +18145,7 @@ __metadata:
     "@ai-crew-suite/plugin-databases-runtime-backend": "workspace:^"
     "@ai-crew-suite/plugin-kernel-backend": "workspace:^"
     "@ai-crew-suite/plugin-kernel-backend-module-quality-scorecards": "workspace:^"
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^"
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod"
     "@ai-crew-suite/plugin-tool-cloud-providers-backend": "workspace:^"
     "@ai-crew-suite/plugin-tool-communication-backend": "workspace:^"
     "@ai-crew-suite/plugin-tool-communication-backend-module-slack": "workspace:^"

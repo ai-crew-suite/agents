@@ -52,7 +52,6 @@
     "@ai-crew-suite/plugin-platform-backend-module-agent-tech-radar-manager": "workspace:^",
     "@ai-crew-suite/plugin-platform-backend-module-agent-techdocs-janitor": "workspace:^",
     "@ai-crew-suite/plugin-platform-backend-module-agent-techdocs-postmortem": "workspace:^",
-
     "@backstage/backend-defaults": "backstage:^",
     "@backstage/backend-plugin-api": "backstage:^",
     "@backstage/config": "backstage:^",
@@ -88,6 +87,7 @@
   },
   "devDependencies": {
     "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "vitest": "catalog:dev"
   }
 }

@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-crew-suite/agents",
-    "directory": "plugins/agents/catalog-insights/backend"
+    "directory": "plugins/catalog-insights/backend"
   },
   "files": [
     "dist/",
@@ -45,13 +45,14 @@
     "typecheck": "crew typecheck"
   },
   "dependencies": {
-    "@ai-crew-suite/plugin-kernel-node": "workspace:^",
+    "@ai-crew-suite/plugin-platform-node": "catalog:prod",
     "@backstage/backend-plugin-api": "backstage:^",
     "@backstage/catalog-client": "backstage:^",
     "@backstage/config": "backstage:^"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "workspace:*",
+    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "@backstage/backend-test-utils": "backstage:^",
     "vitest": "catalog:dev"
   }

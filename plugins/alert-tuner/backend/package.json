@@ -28,7 +28,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ai-crew-suite/agents",
-    "directory": "plugins/agents/alert-tuner/backend"
+    "directory": "plugins/alert-tuner/backend"
   },
   "files": [
     "dist/",
@@ -48,13 +48,14 @@
     "@ai-crew-suite/plugin-kernel-node": "workspace:*",
     "@backstage/backend-plugin-api": "backstage:^",
     "@backstage/config": "backstage:^",
-    "@tree-sitter-grammars/tree-sitter-hcl": "^1.2.0",
-    "web-tree-sitter": "^0.27.0",
-    "yaml": "catalog:yaml",
-    "zod": "catalog:zod"
+    "@tree-sitter-grammars/tree-sitter-hcl": "catalog:prod",
+    "web-tree-sitter": "catalog:prod",
+    "yaml": "catalog:prod",
+    "zod": "catalog:prod"
   },
   "devDependencies": {
-    "@ai-crew-suite/cli": "workspace:*",
+    "@ai-crew-suite/cli": "catalog:dev",
+    "@ai-crew-suite/typescript-shared-config": "catalog:dev",
     "vitest": "catalog:dev"
   }
 }
