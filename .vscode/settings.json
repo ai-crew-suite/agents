@@ -41,6 +41,7 @@
     "knex",
     "pgvector",
     "rjsf",
+    "SARIF",
     "vercel",
     "vite"
   ]
